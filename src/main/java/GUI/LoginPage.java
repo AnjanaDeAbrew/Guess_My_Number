@@ -158,16 +158,16 @@ public class LoginPage extends javax.swing.JFrame {
         String password = Password.getText();
         userValid = new UserValidation();
         if (email.equals("") || password.equals("")) {
-            JOptionPane.showMessageDialog(rootPane, "First enter email or password", "Alert", 0);
+            JOptionPane.showMessageDialog(rootPane, "First enter email or password", "Check Alert", 0);
         } else {
             if (userValid.userValidate(email, password)) {
-                JOptionPane.showMessageDialog(rootPane, "User login Successfull", "User login Successfull", 1);
+                JOptionPane.showMessageDialog(rootPane, "User login Successfull", "Successfull", 1);
                 LoggedPlayer = email;
                 this.dispose();
                 StartPage startPage = new StartPage();
                 startPage.setVisible(true);
             } else {
-                JOptionPane.showMessageDialog(rootPane, "Invalid Emial or Password", "Invalid Emial or Password", 0);
+                JOptionPane.showMessageDialog(rootPane, "Invalid Emial or Password", "Check Alert", 0);
             }
         }
 

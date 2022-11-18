@@ -237,7 +237,7 @@ public class GamePlayPage extends javax.swing.JFrame {
             } else {
                 stopwatch.stop();
                 Gameoverpoint = point;
-                JOptionPane.showMessageDialog(rootPane, "Wrong Answer", "Wrong Answer", 0);
+                JOptionPane.showMessageDialog(rootPane, "Oops! wrong Answer", "Alert", 0);
                 sendpoint = new AddPoint();
                 DateTimeFormatter dt = DateTimeFormatter.ofPattern("yyyy/MM/dd   HH:mm:ss");
                 LocalDateTime now = LocalDateTime.now();

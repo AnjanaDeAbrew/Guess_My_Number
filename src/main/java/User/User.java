@@ -6,7 +6,7 @@ package User;
 
 /**
  *
- * @author user
+ * @author anjana
  */
 public class User {
     private String name;

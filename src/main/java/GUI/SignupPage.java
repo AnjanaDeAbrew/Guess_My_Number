@@ -241,29 +241,29 @@ public class SignupPage extends javax.swing.JFrame {
         }
 
         if (name.equals("")) {
-            JOptionPane.showMessageDialog(rootPane, "Required to fill user name", "Required to fill user name", 0);
+            JOptionPane.showMessageDialog(rootPane, "Required to fill user name", "Required Alert", 0);
         } else if (email.equals("")) {
-            JOptionPane.showMessageDialog(rootPane, "Required to fill email", "Required to fill email", 0);
+            JOptionPane.showMessageDialog(rootPane, "Required to fill email", "Required Alert", 0);
         } else if (!matcher.matches()) {
-            JOptionPane.showMessageDialog(rootPane, "Check email pattern", "Check email pattern", 0);
+            JOptionPane.showMessageDialog(rootPane, "Check email pattern", "Check Alert", 0);
         } else if (password.equals("")) {
-            JOptionPane.showMessageDialog(rootPane, "Required to fill password", "Required to fill password", 0);
+            JOptionPane.showMessageDialog(rootPane, "Required to fill password", "Required Alert", 0);
         } else if (password.length() < 8) {
-            JOptionPane.showMessageDialog(rootPane, "Password shuld be at least 8 characters", "Password shuld be at least 8 characters", 0);
+            JOptionPane.showMessageDialog(rootPane, "Password shuld be at least 8 characters", "Check Alert", 0);
         } else if (confirmpassword.equals("")) {
-            JOptionPane.showMessageDialog(rootPane, "Required to fill confirm password", "Required to fill confirm password", 0);
+            JOptionPane.showMessageDialog(rootPane, "Required to fill confirm password", "Required Alert", 0);
         } else if (confirmpassword.length() < 8) {
-            JOptionPane.showMessageDialog(rootPane, "Confirm Password shuld be at least 8 characters", "Confirm Password shuld be at least 8 characters", 0);
+            JOptionPane.showMessageDialog(rootPane, "Confirm Password shuld be at least 8 characters", "Check Alert", 0);
         } else if (name.equalsIgnoreCase(userName) || email.equalsIgnoreCase(useremail)) {
-            JOptionPane.showMessageDialog(rootPane, "User name or email has already taken", "User name or email has already taken", 0);
+            JOptionPane.showMessageDialog(rootPane, "User name or email has already taken", "Warning", 0);
         } else {
             if (newUser.addNewUser(user.getName(), user.getEmail(), user.getPassword(), confirmpassword)) {
-                JOptionPane.showMessageDialog(rootPane, "User added successfully", "User added successfully", 1);
+                JOptionPane.showMessageDialog(rootPane, "User added successfully", "Successfull", 1);
                 this.dispose();
                 LoginPage loginPage = new LoginPage();
                 loginPage.setVisible(true);
             } else {
-                JOptionPane.showMessageDialog(rootPane, "Check the confirm password again", "Check the confirm password again", 0);
+                JOptionPane.showMessageDialog(rootPane, "Check the confirm password again", "Check Alert", 0);
                 CofirmPassword.setText("");
             }
         }
