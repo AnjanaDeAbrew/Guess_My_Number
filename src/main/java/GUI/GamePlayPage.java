@@ -6,7 +6,7 @@ package GUI;
 
 import DataBase.AddPoint;
 import Engine.GameEngine;
-import Engine.Timer;
+import Engine.Stopwatch;
 import static GUI.LoginPage.LoggedPlayer;
 import java.awt.Button;
 import java.awt.Image;
@@ -32,13 +32,13 @@ public class GamePlayPage extends javax.swing.JFrame {
     int count = 1;
 
     AddPoint sendpoint;
-    Timer timer;
+    Stopwatch stopwatch;
 
     public GamePlayPage() {
         initComponents();
         playGame(null);
-        timer = new Timer();
-        timer.start(SecondLabel, MinuteLabel);
+        stopwatch = new Stopwatch();
+        stopwatch.start(SecondLabel, MinuteLabel);
     }
 
     private void playGame(String player) {
@@ -235,15 +235,15 @@ public class GamePlayPage extends javax.swing.JFrame {
                 RoundLabel.setText("" + count);
 
             } else {
-                timer.stop();
+                stopwatch.stop();
                 Gameoverpoint = point;
                 JOptionPane.showMessageDialog(rootPane, "Wrong Answer", "Wrong Answer", 0);
                 sendpoint = new AddPoint();
                 DateTimeFormatter dt = DateTimeFormatter.ofPattern("yyyy/MM/dd   HH:mm:ss");
                 LocalDateTime now = LocalDateTime.now();
                 String date = dt.format(now);
-                sendpoint.addPoints(LoggedPlayer, point, timer.getSeconds(), timer.getMinutes(), date);
-                timer.reset();
+                sendpoint.addPoints(LoggedPlayer, point, stopwatch.getSeconds(), stopwatch.getMinutes(), date);
+                stopwatch.reset();
                 this.dispose();
                 EndPage endPage = new EndPage();
                 endPage.setVisible(true);

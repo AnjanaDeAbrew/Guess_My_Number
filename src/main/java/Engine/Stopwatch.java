@@ -11,7 +11,7 @@ import javax.swing.JLabel;
  *
  * @author anjana
  */
-public class Timer {
+public class Stopwatch {
 
     static int miliseconds = 0;
     static int seconds = 0;
