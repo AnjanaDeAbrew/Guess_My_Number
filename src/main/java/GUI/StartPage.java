@@ -45,7 +45,7 @@ public class StartPage extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 290, 250, 50));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 280, 250, 50));
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\anjan\\Desktop\\CIS\\Project\\GuessMyNumber\\src\\main\\java\\Resources\\StartBackground.png")); // NOI18N
         jLabel1.setText("jLabel1");

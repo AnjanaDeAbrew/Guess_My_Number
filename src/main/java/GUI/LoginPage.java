@@ -131,7 +131,7 @@ public class LoginPage extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, 130, 40));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 530, 130, 40));
 
         jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\anjan\\Desktop\\CIS\\Project\\GuessMyNumber\\src\\main\\java\\Resources\\LoginBackground.png")); // NOI18N
         jLabel4.setText("jLabel4");

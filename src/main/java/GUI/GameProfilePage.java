@@ -138,7 +138,7 @@ public class GameProfilePage extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 480, 140, 40));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 520, 140, 40));
 
         pointTable.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 0, true));
         pointTable.setFont(new java.awt.Font("Bahnschrift", 1, 16)); // NOI18N

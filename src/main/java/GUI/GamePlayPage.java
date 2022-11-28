@@ -160,7 +160,7 @@ public class GamePlayPage extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 30, 120, 50));
+        jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 40, 120, 50));
 
         jPanel4.setBackground(new java.awt.Color(153, 153, 0));
 
@@ -193,7 +193,7 @@ public class GamePlayPage extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel2.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 30, 180, 60));
+        jPanel2.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 30, 180, 60));
 
         jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\anjan\\Desktop\\CIS\\Project\\GuessMyNumber\\src\\main\\java\\Resources\\GameplayBackground.png")); // NOI18N
         jLabel2.setText("jLabel2");
