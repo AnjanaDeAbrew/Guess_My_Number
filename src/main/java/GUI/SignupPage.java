@@ -60,6 +60,7 @@ public class SignupPage extends javax.swing.JFrame {
         CofirmPassword = new javax.swing.JPasswordField();
         jLabel6 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -68,21 +69,21 @@ public class SignupPage extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 50)); // NOI18N
         jLabel2.setText("Signup");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 190, -1, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 120, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
         jLabel3.setText("Username");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 270, -1, -1));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 220, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
         jLabel4.setText("Email");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 320, -1, -1));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 270, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
         jLabel5.setText("Password");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 370, -1, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 320, -1, -1));
 
-        SignupBtn.setBackground(new java.awt.Color(132, 61, 20));
+        SignupBtn.setBackground(new java.awt.Color(107, 91, 0));
         SignupBtn.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         SignupBtn.setForeground(new java.awt.Color(255, 255, 255));
         SignupBtn.setText("Signup");
@@ -95,11 +96,11 @@ public class SignupPage extends javax.swing.JFrame {
                 SignupBtnActionPerformed(evt);
             }
         });
-        jPanel1.add(SignupBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 465, 120, 40));
+        jPanel1.add(SignupBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 450, 140, 40));
 
         Email.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
         Email.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
-        jPanel1.add(Email, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 310, 280, 40));
+        jPanel1.add(Email, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 260, 280, 40));
 
         UserName.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
         UserName.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
@@ -108,7 +109,7 @@ public class SignupPage extends javax.swing.JFrame {
                 UserNameActionPerformed(evt);
             }
         });
-        jPanel1.add(UserName, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 260, 280, 40));
+        jPanel1.add(UserName, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 210, 280, 40));
 
         passwordEye.setIcon(new javax.swing.ImageIcon("C:\\Users\\anjan\\Desktop\\CIS\\Project\\GuessMyNumber\\src\\main\\java\\Resources\\eye20.png")); // NOI18N
         passwordEye.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -119,7 +120,7 @@ public class SignupPage extends javax.swing.JFrame {
                 passwordEyeMouseReleased(evt);
             }
         });
-        jPanel1.add(passwordEye, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 370, 30, 20));
+        jPanel1.add(passwordEye, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 320, 20, 20));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -127,18 +128,18 @@ public class SignupPage extends javax.swing.JFrame {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 30, Short.MAX_VALUE)
+            .addGap(0, 20, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 20, Short.MAX_VALUE)
         );
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(678, 369, 30, 20));
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 320, 20, 20));
 
         Password.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
         Password.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
-        jPanel1.add(Password, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 360, 280, 40));
+        jPanel1.add(Password, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 310, 280, 40));
 
         confirmEye.setIcon(new javax.swing.ImageIcon("C:\\Users\\anjan\\Desktop\\CIS\\Project\\GuessMyNumber\\src\\main\\java\\Resources\\eye20.png")); // NOI18N
         confirmEye.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -149,7 +150,7 @@ public class SignupPage extends javax.swing.JFrame {
                 confirmEyeMouseReleased(evt);
             }
         });
-        jPanel1.add(confirmEye, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 420, 30, 20));
+        jPanel1.add(confirmEye, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 370, 20, 20));
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -157,23 +158,23 @@ public class SignupPage extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 30, Short.MAX_VALUE)
+            .addGap(0, 20, Short.MAX_VALUE)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 20, Short.MAX_VALUE)
         );
 
-        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(678, 420, 30, 20));
+        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 370, 20, 20));
 
         CofirmPassword.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
         CofirmPassword.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
-        jPanel1.add(CofirmPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 410, 280, 40));
+        jPanel1.add(CofirmPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 360, 280, 40));
         CofirmPassword.getAccessibleContext().setAccessibleName("");
 
         jLabel6.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
         jLabel6.setText("Confirm Password");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 420, -1, -1));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 370, -1, -1));
 
         jButton1.setBackground(new java.awt.Color(153, 0, 0));
         jButton1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
@@ -186,7 +187,17 @@ public class SignupPage extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 465, 110, 40));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 450, 130, 40));
+
+        jLabel7.setFont(new java.awt.Font("Arial", 2, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(43, 39, 39));
+        jLabel7.setText("Have already account? Login here.");
+        jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel7MousePressed(evt);
+            }
+        });
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 415, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\anjan\\Desktop\\CIS\\Project\\GuessMyNumber\\src\\main\\java\\Resources\\SignupBackground.png")); // NOI18N
         jLabel1.setText("jLabel1");
@@ -298,6 +309,13 @@ public class SignupPage extends javax.swing.JFrame {
         CofirmPassword.setEchoChar('*');
     }//GEN-LAST:event_confirmEyeMouseReleased
 
+    private void jLabel7MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MousePressed
+        // TODO add your handling code here:
+         this.dispose();
+        LoginPage loginPage = new LoginPage();
+        loginPage.setVisible(true);
+    }//GEN-LAST:event_jLabel7MousePressed
+
     /**
      * @param args the command line arguments
      */
@@ -347,6 +365,7 @@ public class SignupPage extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;

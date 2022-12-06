@@ -59,7 +59,7 @@ public class EndPage extends javax.swing.JFrame {
         jLabel4.setText("Points");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 220, 120, 30));
 
-        jButton1.setBackground(new java.awt.Color(132, 61, 20));
+        jButton1.setBackground(new java.awt.Color(107, 91, 0));
         jButton1.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("New Game");
@@ -72,7 +72,7 @@ public class EndPage extends javax.swing.JFrame {
         });
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 290, 240, 40));
 
-        jButton2.setBackground(new java.awt.Color(132, 61, 20));
+        jButton2.setBackground(new java.awt.Color(107, 91, 0));
         jButton2.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("View Point Table");
@@ -85,7 +85,7 @@ public class EndPage extends javax.swing.JFrame {
         });
         jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 340, 240, 40));
 
-        jButton3.setBackground(new java.awt.Color(132, 61, 20));
+        jButton3.setBackground(new java.awt.Color(107, 91, 0));
         jButton3.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Exit");

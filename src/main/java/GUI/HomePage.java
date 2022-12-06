@@ -40,7 +40,7 @@ public class HomePage extends javax.swing.JFrame {
         jLabel2.setText("Guess My Number");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 220, -1, -1));
 
-        jButton1.setBackground(new java.awt.Color(132, 61, 20));
+        jButton1.setBackground(new java.awt.Color(107, 91, 0));
         jButton1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Login");
@@ -53,7 +53,7 @@ public class HomePage extends javax.swing.JFrame {
         });
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(394, 330, 220, 50));
 
-        jButton2.setBackground(new java.awt.Color(132, 61, 20));
+        jButton2.setBackground(new java.awt.Color(107, 91, 0));
         jButton2.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Signup");

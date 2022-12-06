@@ -76,7 +76,7 @@
         <Component class="javax.swing.JButton" name="GuessBtn">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="14" green="3d" red="84" type="rgb"/>
+              <Color blue="0" green="5b" red="6b" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Arial" size="18" style="1"/>
@@ -234,7 +234,7 @@
         <Container class="javax.swing.JPanel" name="jPanel4">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="99" red="99" type="rgb"/>
+              <Color blue="28" green="2a" red="a3" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>

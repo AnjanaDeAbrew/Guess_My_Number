@@ -49,6 +49,7 @@ public class LoginPage extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         Password = new javax.swing.JPasswordField();
         jButton1 = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -57,15 +58,15 @@ public class LoginPage extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 50)); // NOI18N
         jLabel1.setText("Login");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 210, -1, -1));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 140, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Bahnschrift", 0, 20)); // NOI18N
         jLabel2.setText("Email");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 318, -1, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 260, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Bahnschrift", 0, 20)); // NOI18N
         jLabel3.setText("Password");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 378, -1, -1));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 330, -1, -1));
 
         Email.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
         Email.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
@@ -74,9 +75,9 @@ public class LoginPage extends javax.swing.JFrame {
                 EmailActionPerformed(evt);
             }
         });
-        jPanel1.add(Email, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 300, 330, 48));
+        jPanel1.add(Email, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 250, 330, 48));
 
-        LoginBtn.setBackground(new java.awt.Color(132, 61, 20));
+        LoginBtn.setBackground(new java.awt.Color(107, 91, 0));
         LoginBtn.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         LoginBtn.setForeground(new java.awt.Color(255, 255, 255));
         LoginBtn.setText("Login");
@@ -87,7 +88,7 @@ public class LoginPage extends javax.swing.JFrame {
                 LoginBtnActionPerformed(evt);
             }
         });
-        jPanel1.add(LoginBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 420, 160, 48));
+        jPanel1.add(LoginBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 430, 150, 40));
 
         jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\anjan\\Desktop\\CIS\\Project\\GuessMyNumber\\src\\main\\java\\Resources\\eye20.png")); // NOI18N
         jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -98,7 +99,7 @@ public class LoginPage extends javax.swing.JFrame {
                 jLabel5MouseReleased(evt);
             }
         });
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(706, 372, -1, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 330, -1, -1));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -113,17 +114,18 @@ public class LoginPage extends javax.swing.JFrame {
             .addGap(0, 30, Short.MAX_VALUE)
         );
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(698, 370, 30, 30));
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 330, 30, 30));
 
         Password.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
         Password.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
-        jPanel1.add(Password, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 360, 330, 48));
+        jPanel1.add(Password, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 320, 330, 48));
         Password.getAccessibleContext().setAccessibleName("");
 
-        jButton1.setBackground(new java.awt.Color(132, 61, 20));
-        jButton1.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jButton1.setBackground(new java.awt.Color(153, 0, 0));
+        jButton1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Back to Home");
+        jButton1.setText("Cancel");
+        jButton1.setToolTipText("");
         jButton1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 0, true));
         jButton1.setBorderPainted(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -131,7 +133,16 @@ public class LoginPage extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 530, 130, 40));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 430, 150, 40));
+
+        jLabel6.setFont(new java.awt.Font("Arial", 2, 14)); // NOI18N
+        jLabel6.setText("Are you a new user? Signup here.");
+        jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel6MousePressed(evt);
+            }
+        });
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 390, -1, -1));
 
         jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\anjan\\Desktop\\CIS\\Project\\GuessMyNumber\\src\\main\\java\\Resources\\LoginBackground.png")); // NOI18N
         jLabel4.setText("jLabel4");
@@ -195,6 +206,14 @@ public class LoginPage extends javax.swing.JFrame {
         Password.setEchoChar('*');
     }//GEN-LAST:event_jLabel5MouseReleased
 
+    private void jLabel6MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MousePressed
+        // TODO add your handling code here:
+        this.dispose();
+        SignupPage signupPage = new SignupPage();
+        signupPage.setVisible(true);
+        
+    }//GEN-LAST:event_jLabel6MousePressed
+
     /**
      * @param args the command line arguments
      */
@@ -240,6 +259,7 @@ public class LoginPage extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables

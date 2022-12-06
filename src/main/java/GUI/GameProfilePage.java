@@ -127,7 +127,7 @@ public class GameProfilePage extends javax.swing.JFrame {
         jLabel5.setText("All Points of");
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 260, 130, -1));
 
-        jButton1.setBackground(new java.awt.Color(132, 61, 20));
+        jButton1.setBackground(new java.awt.Color(107, 91, 0));
         jButton1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Back ");

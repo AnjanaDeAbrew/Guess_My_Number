@@ -85,7 +85,7 @@ public class GamePlayPage extends javax.swing.JFrame {
         textNumber.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         jPanel2.add(textNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 480, 70, 40));
 
-        GuessBtn.setBackground(new java.awt.Color(132, 61, 20));
+        GuessBtn.setBackground(new java.awt.Color(107, 91, 0));
         GuessBtn.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         GuessBtn.setForeground(new java.awt.Color(255, 255, 255));
         GuessBtn.setText("Guess");
@@ -162,7 +162,7 @@ public class GamePlayPage extends javax.swing.JFrame {
 
         jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 40, 120, 50));
 
-        jPanel4.setBackground(new java.awt.Color(153, 153, 0));
+        jPanel4.setBackground(new java.awt.Color(163, 42, 40));
 
         MinuteLabel.setFont(new java.awt.Font("Bahnschrift", 1, 32)); // NOI18N
         MinuteLabel.setForeground(new java.awt.Color(255, 255, 255));
